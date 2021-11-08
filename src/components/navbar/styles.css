@@ -2,10 +2,9 @@
 
 .navbar-list{
     list-style-type: none;
-    display: inline;
     display:flex; 
     align-items: center;
-    margin-top: 4%;
+    margin-top: 2%;
 }
 
 .hamMenu-button {

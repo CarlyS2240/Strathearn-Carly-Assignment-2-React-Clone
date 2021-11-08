@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.header-list{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+    height: 40px;
+    margin-top: 0px;
+
+    
+    font-size: 14px;
+    color: white;
+}
+
+.Language{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    margin: 2%;
+}
+
+.Join{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    margin: 2%;
+}
+
+.Planning{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    margin: 2%;
+}
+
+.languageIcon{
+  margin: 8px;
+}
+
+.cropIcon{
+  margin: 8px;
+}
+
+.editIcon{
+  margin: 8px;
+}

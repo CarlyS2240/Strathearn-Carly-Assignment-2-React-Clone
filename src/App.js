@@ -9,12 +9,15 @@ import {
 } from "react-router-dom";
 
 import { Navbar } from './components/navbar/index';
+import { Header} from './components/header/index';
+
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <Navbar/>
+        <Header></Header>
+        <Navbar></Navbar>
         <Switch>
           <Route exact path="/ArtificialPlantPage">
             <div>Artificial Plant Page</div>

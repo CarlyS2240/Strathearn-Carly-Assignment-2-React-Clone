@@ -5,6 +5,8 @@ import {
 import "./styles.css"
 import {LocationOn, LocalShipping, PersonOutline, FavoriteBorder, ShoppingCart, Menu, Search, PhotoCameraOutlined} from '@material-ui/icons';
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 export const Navbar = () => {
     return (
         <nav ClassName="navbar">
