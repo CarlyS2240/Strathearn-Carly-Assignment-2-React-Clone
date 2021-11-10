@@ -10,6 +10,9 @@ import {
 
 import { Navbar } from './components/navbar/index';
 import { Header} from './components/header/index';
+import { ArtificialPlantPage} from './components/pages/artificial-plants/index';
+import { LoginPage} from './components/pages/login/index';
+import { ProductCard} from './components/card/index';
 
 
 function App() {
@@ -20,10 +23,12 @@ function App() {
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/ArtificialPlantPage">
-            <div>Artificial Plant Page</div>
+            <ArtificialPlantPage>
+              <ProductCard></ProductCard>
+            </ArtificialPlantPage>
           </Route>
-          <Route exact path="/secondpage">
-            <div>Second Page</div>
+          <Route exact path="/LoginPage">
+            <LoginPage></LoginPage>
           </Route>
         </Switch>
       </Router>

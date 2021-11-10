@@ -87,6 +87,10 @@
     margin-left: 140%;
   }
 
+  .location:hover::after {
+    background: red;
+}
+
   .shipping {
     background: transparent;
     box-shadow: 0px 0px 0px transparent;
@@ -155,6 +159,11 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
+  }
+
+  .searchInput:focus{
+    outline: none;
+
   }
 
   .cameraIcon{
