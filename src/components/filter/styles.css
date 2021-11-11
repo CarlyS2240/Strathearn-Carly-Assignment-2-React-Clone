@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;500&family=Roboto:wght@300;400;500&display=swap');
+
+.filter-buttons{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    margin-left: 7.5%;
+    
+}
+
+.Sort, .Size, .Color, .Price, .availableOnline, .newProducts, .customerRatings, .allFilters{
+    background-color: #f5f5f5;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+ 
+    font-size: 0.80rem;
+    margin: 4px 6px;
+    border-radius: 20px;
+    align-items: center;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sort:hover, .Size:hover, .Color:hover, .Price:hover, .availableOnline:hover, .newProducts:hover, .customerRatings:hover, .allFilters:hover{
+    background-color: #e2e2e2;
+}
+
+.Sort, .Size, .Color, .Price, .allFilters{
+    width: 105px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.availableOnline, .customerRatings{
+    width: 180px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.newProducts{
+    width: 110px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.allFilters{
+    width: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.itemNumber{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.90rem;
+    color: #b1b1b1;
+
+    margin-left: 18%;
+    margin-right: 1%;
+}
+
+.productB, .roomB{
+    background-color: #ffffff;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #242424;
+    padding: 8px;
+}
+
+.productB{
+    border-left: 1px solid rgb(136, 136, 136);
+    border-top: 1px solid rgb(136, 136, 136);
+    border-bottom: 1px solid rgb(136, 136, 136);
+
+}
+
+.productB:hover{
+    border-left: 1px solid rgb(26, 26, 26);
+    border-top: 1px solid rgb(26, 26, 26);
+    border-bottom: 1px solid rgb(26, 26, 26);
+
+}
+
+.roomB{
+    border-right: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+

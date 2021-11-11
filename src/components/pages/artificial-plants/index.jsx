@@ -3,8 +3,7 @@ import "./styles.css";
 import { ProductCard } from '../../card/index';
 import { PageInfo } from '../../page-Info/index';
 import { Footer } from '../../footer/index';
-
-
+import { Filter } from '../../filter/index';
 
 export const ArtificialPlantPage = () => {
     return (
@@ -16,6 +15,7 @@ export const ArtificialPlantPage = () => {
                     pSubtitle="Beautiful plants without the work"
                     pDescription="Lifelike and colourful, our artificial plants and flowers don't smell like the real thing, but they'll give your home a real boost. They never wilt and stay fresh-looking year after year. Why not keep a few stored away as well, so you can vary your display or brighten up a room anytime you feel like it?">
                 </PageInfo>
+                <Filter></Filter>
             </div>
             <div className="wrapper">
                 <ProductCard

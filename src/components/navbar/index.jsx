@@ -36,7 +36,7 @@ export const Navbar = () => {
                     <form action="/" method="get" className="searchBar">
                         <label htmlFor="headersearch">
                         </label>
-                        <Search></Search>
+                        <Search className="searchIcon"></Search>
                         <input className="searchInput"
                             type="text"
                             id="headersearch"
@@ -59,27 +59,23 @@ export const Navbar = () => {
                     
                     </NavLink>
                 </li>
-                <li className="locationHover">
+                <li className="buttonList">
                     <button className="location">
                         <LocationOn></LocationOn>
                     </button>
-                </li>
-                <li>
+         
                     <button className="shipping">
                         <LocalShipping></LocalShipping>
                     </button>
-                </li>
-                <li>
+              
                     <button className="account">
                         <PersonOutline></PersonOutline>
                     </button>
-                </li>
-                <li>
+         
                     <button className="favourite">
                         <FavoriteBorder></FavoriteBorder>
                     </button>
-                </li>
-                <li>
+
                     <button className="cart">
                         <ShoppingCart></ShoppingCart>
                     </button>
