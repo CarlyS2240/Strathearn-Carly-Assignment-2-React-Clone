@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import "./styles.css"
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 export const ProductCard = (props) => {
 
     const{img, title, description, price} = props;

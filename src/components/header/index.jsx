@@ -2,6 +2,8 @@ import "./styles.css"
 
 import {Language, Crop54, Edit} from '@material-ui/icons';
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 export const Header = () => {
     return (
             <ul className="header-list">

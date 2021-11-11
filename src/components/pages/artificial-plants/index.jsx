@@ -5,6 +5,8 @@ import { PageInfo } from '../../page-Info/index';
 import { Footer } from '../../footer/index';
 import { Filter } from '../../filter/index';
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 export const ArtificialPlantPage = () => {
     return (
         <>

@@ -67,3 +67,36 @@
 
     
 }
+
+/*----------Responsive Design For iPhone---------*/
+
+@media only screen and (max-width: 600px) {
+
+    .pageTitle{
+        margin-left: 5%;
+        margin-top: 20%;
+        font-size: 	1.5rem;
+        line-height: 100%;
+    }
+    
+    .pageSubTitle{
+        margin-left: 5%;
+        margin-top: 6%;
+        font-size: 	1.3rem;
+        line-height: 100%;
+    }
+    
+    .pageDescription{
+        margin-left: 5%;
+        margin-top: 1%;
+        width: 90%;
+    }
+
+    .breadCrumbs{
+        margin-left: 5%;
+        width: 90%;  
+    }
+  
+
+}
+

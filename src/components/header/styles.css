@@ -46,3 +46,24 @@
 .editIcon{
   margin: 8px;
 }
+
+/*----------Responsive Design For iPhone---------*/
+
+@media only screen and (max-width: 600px) {
+
+  .Join, .Planning{
+    display: none;
+  }
+
+  .header-list{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    justify-content: left;
+    padding-left: 9px;
+}
+
+  .Language{
+    margin: 0%;
+  }
+}

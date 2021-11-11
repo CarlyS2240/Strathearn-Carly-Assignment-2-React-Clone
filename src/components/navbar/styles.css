@@ -216,3 +216,57 @@
     margin-left: 590px;
     margin-right: 40px;
   }
+
+  /*----------Responsive Design For iPhone---------*/
+
+  @media only screen and (max-width: 600px) {
+    .navbar-list{
+      list-style-type: none;
+      display:flex; 
+      align-items: center;
+      margin-top: 2%;
+      padding-left: 20px;
+  }
+
+    .searchContainer{
+      display: none;
+  }
+
+  .Rooms, .Offers, .Products{
+    display: none;
+  }
+
+  .logo {
+    margin-left: 0%;
+  }
+
+  .divider {
+    margin-left: 18px;
+    width: 90%;
+    margin-top: 0%;
+  }
+
+  .hamMenu-button{
+    display: none;
+  }
+
+  .buttonList{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    margin-left:2%;
+  }
+
+  .shipping{
+    display: none;
+  }
+
+  .location{
+    margin-left: 5%;
+  }
+
+  .location, .account, .favourite, .cart{
+    margin: 0px 1px;
+  }
+
+}
