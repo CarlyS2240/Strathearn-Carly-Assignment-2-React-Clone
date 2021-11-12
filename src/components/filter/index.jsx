@@ -1,6 +1,8 @@
 import "./styles.css"
 import {KeyboardArrowDown, Tune} from '@material-ui/icons';
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
 export const Filter = () => {
 
     return (
@@ -53,19 +55,21 @@ export const Filter = () => {
                             <Tune></Tune>
                         </button>
                     </li>
-                    <li className="itemNumber">
-                        <p>8 items</p>
-                    </li>
-                    <li>
-                        <button className="productB">
-                            Product
-                        </button>
-                    </li>
-                    <li>
-                        <button className="roomB">
-                            Room
-                        </button>
-                    </li>
+                    <ul className="roomFilterButtons">
+                        <li className="itemNumber">
+                            <p>8 items</p>
+                        </li>
+                        <li>
+                            <button className="productB">
+                                Product
+                            </button>
+                        </li>
+                        <li>
+                            <button className="roomB">
+                                Room
+                            </button>
+                        </li>
+                    </ul>
                 </ul>
             </div>
 

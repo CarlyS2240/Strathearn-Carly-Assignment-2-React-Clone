@@ -17,21 +17,23 @@ export const Navbar = () => {
                     </button>
                 </li>
                 <img className="logo" src="images/ikeaLogo.svg" alt="Ikea logo"/>
-                <li>
-                    <button className="Products">
-                        Products
-                    </button>
-                </li>
-                <li>
-                    <button className="Rooms">
-                        Rooms
-                    </button>
-                </li>
-                <li>
-                    <button button className="Offers">
-                        Offers
-                    </button>
-                </li>
+                <div className="linksContainer">
+                    <li>
+                        <button className="Products">
+                            Products
+                        </button>
+                    </li>
+                    <li>
+                        <button className="Rooms">
+                            Rooms
+                        </button>
+                    </li>
+                    <li>
+                        <button button className="Offers">
+                            Offers
+                        </button>
+                    </li>
+                </div>
                 <div className="searchContainer">
                     <form action="/" method="get" className="searchBar">
                         <label htmlFor="headersearch">

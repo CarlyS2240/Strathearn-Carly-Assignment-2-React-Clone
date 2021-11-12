@@ -18,7 +18,11 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <Header></Header>
+        <Header
+          firstMessage="We're experiencing supply issues"
+          secondMessage="Join IKEA family for free | get member-only discounts, benefits and more"
+          thirdMessage="Personalized planning services">
+        </Header>
         <Navbar></Navbar>
         <Switch>
           <Route exact path="/ArtificialPlantPage">
