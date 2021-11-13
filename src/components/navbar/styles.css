@@ -13,7 +13,8 @@
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
-    padding-right: 60px;
+    padding-right: 39px;
+    padding-left: 15px;
     
     position: sticky;
 
@@ -108,8 +109,8 @@
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
-    /*margin-left: 140%;*/
-    margin: 0px 10px;
+    margin-left: 20px;
+    
   }
 
   .location:Hover {
@@ -124,7 +125,7 @@
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
-    margin: 0px 5px;
+    margin: 0px 0px;
   }
 
   .shipping:Hover {
@@ -140,7 +141,7 @@
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
-    margin: 0px 5px;
+    margin: 0px 0px;
   }
 
   .account:Hover {
@@ -155,7 +156,7 @@
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
-    margin: 0px 5px;
+    margin: 0px 0px;
   }
 
   .favourite:Hover {
@@ -245,10 +246,12 @@
   }
 
   @media only screen and (min-width: 1629px) {
+    
 
     .hamMenu-button {
    
-      padding-left: 65px;
+      padding-left: 56px;
+      padding-right: 60px;
 
   
     }
@@ -260,8 +263,8 @@
   
   .divider {
   
-    width:80%;
-    margin-left: 185px;
+    width:83%;
+    margin-left: 190px;
 
   }
 

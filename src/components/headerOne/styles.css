@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.headerWrapper{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+    height: 40px;
+    margin-top: 0px;
+
+    
+    font-size: 14px;
+    color: white;
+}
+
+.headerList{
+    list-style-type: none;
+    justify-content: center;
+  
+}
+
+.headerItems{
+    list-style-type: none;
+    display:flex; 
+    align-items: center;
+    width: 100%;
+    margin: 29px;
+}
+
+.MuiSvgIcon-root{
+    padding-right: 10px;
+}
+
+/*----------Responsive Design For iPhone---------*/
+
+@media only screen and (max-width: 600px) {
+
+    .headerWrapper{
+        display: block;
+        height: 150px;
+        justify-content: left;
+        align-items: left;
+        text-align: left;
+        margin: 0px;
+        
+
+    }
+
+    .headerItems{
+        list-style-type: none;
+        align-items: center;
+        width: 85%;
+        margin: 0px;
+        
+    }
+
+    .headerList{
+        padding: 10px 10px;
+        margin: 0px !important;
+      
+    }
+    
+  }

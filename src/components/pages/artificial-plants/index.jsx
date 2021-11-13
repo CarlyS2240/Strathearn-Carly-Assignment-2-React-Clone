@@ -1,14 +1,34 @@
 import "./styles.css";
 
+import { Navbar } from '../../navbar/index';
 import { ProductCard } from '../../card/index';
 import { PageInfo } from '../../page-Info/index';
 import { Footer } from '../../footer/index';
 import { Filter } from '../../filter/index';
+import { Header } from "../../header";
+import { HeaderOne } from "../../headerOne";
+
+import {Language, Crop54, Edit} from '@material-ui/icons';
 
 
 export const ArtificialPlantPage = () => {
     return (
         <>
+            <div className="headerWrapper">
+                <HeaderOne
+                    Icon={<Language></Language>}
+                    Message="We're experiencing supply issues"
+                ></HeaderOne>
+                <HeaderOne
+                    Icon={<Crop54></Crop54>}
+                    Message="Join IKEA family for free | get member-only discounts, benefits and more"
+                ></HeaderOne>
+                <HeaderOne
+                    Icon={<Edit></Edit>}
+                    Message="Personalized planning services"
+                ></HeaderOne>
+            </div>
+            <Navbar></Navbar>
             <div>
                 <PageInfo
                     pBreadCrumbs="Products > Home décor > Plants and flowers > Artificial plants and flowers"
