@@ -19,7 +19,21 @@
     display: grid;
     grid-template-columns: 220px 220px 220px 220px;
     grid-gap: 50px;
+    
   
+  }
+
+  .topSellerTag{
+      background: #D90B56;
+      position: absolute;
+      width: 70px;
+      height: 15px;
+      font-family: 'Noto Sans', sans-serif;
+      font-weight: 700;
+      font-size: 13px;
+      color: white;
+      padding-top: 10px;
+      padding-left: 5px;
   }
 
   .plantImage {
@@ -28,12 +42,19 @@
     object-fit: cover;
   }
 
+  .newTag{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgb(218, 123, 0);
+  }
+
   .cardTitle{
       font-family: 'Roboto', sans-serif;
       letter-spacing: 0.5px;
       font-size: 15px;
       font-weight: 600;
-      margin-top: 9%;
+      margin-top: 10%;
   }
 
   .cardDescription{
@@ -43,6 +64,7 @@
     color: #5a5a5a;
     font-weight: 300;
     line-height: 20px;
+    width: 80%;
    
 }
 
@@ -70,13 +92,35 @@
 .productCardDivider{
     border-top: 1px solid rgb(235, 235, 235);
     width:100%;
-    margin-top: 20%;
+    margin-top: 40%;
 }
+
+.addCart{
+    background: #0367A6;
+    color: white;
+    display:block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    text-align: center;
+    float: right;
+    display: none;
+    padding-left: 12px;
+    padding-top: 5px;
+    
+}
+
+.cardBody:hover .addCart{
+    cursor: pointer;
+    display:block;
+}
+
 
 @media only screen and (max-width: 667px) {
 
     .wrapper {
-        grid-template-columns: 158px 158px;
+        grid-template-columns: 168px 168px;
         grid-gap: 10px;
         margin-left: 4%;
       
@@ -84,6 +128,10 @@
 
       .checkBox{
         margin-left: 0px;
+    }
+
+    .cardTitle{
+        margin-top: 14%;
     }
 
 }
@@ -94,5 +142,13 @@
         grid-gap: 50px;
       
       }
+
+      .productCardDivider{
+        margin-top: 22%;
+    }
+
+    .cardTitle{
+        margin-top: 7%;
+    }
 
   }

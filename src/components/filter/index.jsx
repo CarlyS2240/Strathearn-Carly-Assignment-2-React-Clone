@@ -1,9 +1,12 @@
+import PropTypes from 'prop-types';
 import "./styles.css"
 import {KeyboardArrowDown, Tune} from '@material-ui/icons';
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
-export const Filter = () => {
+export const Filter = (props) => {
+
+    const{itemNumber} = props;
 
     return (
             <div className="filterButtons">
@@ -57,7 +60,7 @@ export const Filter = () => {
                     </li>
                     <ul className="roomFilterButtons">
                         <li className="itemNumber">
-                            <p>8 items</p>
+                            <p className="itemNumber">{itemNumber}</p>
                         </li>
                         <li>
                             <button className="productB">
@@ -71,9 +74,14 @@ export const Filter = () => {
                         </li>
                     </ul>
                 </ul>
+                <hr className="buttonDivider"></hr>
             </div>
 
     );
+}
+
+Filter.propTypes = {
+    itemNumber: PropTypes.string.isRequired,
 }
 
 

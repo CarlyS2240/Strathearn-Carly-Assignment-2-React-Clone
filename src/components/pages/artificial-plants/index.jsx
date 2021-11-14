@@ -36,10 +36,13 @@ export const ArtificialPlantPage = () => {
                     pSubtitle="Beautiful plants without the work"
                     pDescription="Lifelike and colourful, our artificial plants and flowers don't smell like the real thing, but they'll give your home a real boost. They never wilt and stay fresh-looking year after year. Why not keep a few stored away as well, so you can vary your display or brighten up a room anytime you feel like it?">
                 </PageInfo>
-                <Filter></Filter>
+                <Filter
+                itemNumber="8 items">
+                </Filter>
             </div>
             <div className="wrapper">
                 <ProductCard
+                    newProduct="hidden"
                     img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-bamboo__0900621_pe654125_s5.jpg?f=m" 
                     title="FEJKA"
                     description="Artificial potted plant, 9″ (23cm)"
@@ -47,6 +50,8 @@ export const ArtificialPlantPage = () => {
                     >  
                 </ProductCard>
                 <ProductCard
+                    topSeller="none"
+                    newProduct="hidden"
                     img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-hanging__0748531_pe745054_s5.jpg?f=xxs" 
                     title="FEJKA"
                     description="Artificial potted plant, 3 ½″ (9cm)"
@@ -61,6 +66,8 @@ export const ArtificialPlantPage = () => {
                     >  
                 </ProductCard>
                 <ProductCard
+                    topSeller="none"
+                    newProduct="hidden"
                     img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-clusia__0959224_pe809437_s5.jpg?f=xxs" 
                     title="FEJKA"
                     description="Artificial potted plant, 4 ¾″ (12cm)"
@@ -68,13 +75,15 @@ export const ArtificialPlantPage = () => {
                     >  
                 </ProductCard>
                 <ProductCard
-                    img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-clusia__0959224_pe809437_s5.jpg?f=xxs" 
+                    topSeller="none"
+                    img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-with-pot-indoor-outdoor-succulent__0901062_pe687829_s5.jpg?f=xxs" 
                     title="FEJKA"
-                    description="Artificial potted plant with pot, 2 ¼″ 3 pack (6 cm 3 pack)"
+                    description="Artificial potted plant with pot, 2 ¼″ 3 pack"
                     price="$3.⁹⁹"
                     >  
                 </ProductCard>
                 <ProductCard
+                    newProduct="hidden"
                     img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-kentia-palm__0955452_pe804042_s5.jpg?f=xxs" 
                     title="FEJKA"
                     description="Artificial potted plant, 9″ (23 cm)"
@@ -82,6 +91,8 @@ export const ArtificialPlantPage = () => {
                     >  
                 </ProductCard>
                 <ProductCard
+                    topSeller="none"
+                    newProduct="hidden"
                     img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-magnolia__0965444_pe809428_s5.jpg?f=xxs" 
                     title="FEJKA"
                     description="Artificial potted plant, 9″ (23 cm)"
@@ -89,6 +100,7 @@ export const ArtificialPlantPage = () => {
                     >  
                 </ProductCard>
                 <ProductCard
+                    topSeller="none"
                     img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-indoor-outdoor-spiderwort__0959236_pe809447_s5.jpg?f=xxs" 
                     title="FEJKA"
                     description="Artificial potted plant, 3 ½″ (9 cm)"

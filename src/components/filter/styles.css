@@ -74,9 +74,13 @@
     list-style-type: none;
     align-items: center;
     align-content: center;
-    margin-left: 80%;
+    margin-left: 79%;
     
     
+}
+
+.itemNumber{
+    width: 100%;
 }
 
 .productB, .roomB{
@@ -111,6 +115,14 @@
 
 }
 
+.buttonDivider {
+    border-top: 1px solid rgb(235, 235, 235);
+    width:81%;
+    margin-left: 129px;
+    margin-top: 30px;
+    display:flex; 
+  }
+
 @media only screen and (max-width: 667px) {
     .filter-buttons{
         margin-left: 0%;
@@ -136,6 +148,12 @@
     .roomFilterButtons{
         margin-left: 40%;
     }
+
+    .buttonDivider {
+        width:95%;
+        margin-left: 9px;
+        margin-bottom: 5%;
+      }
  
 }
 
@@ -153,6 +171,11 @@
         margin-left: auto;
         
     }
+
+    .buttonDivider {
+        width:85%;
+        margin-left: 180px;
+      }
 
    
     
