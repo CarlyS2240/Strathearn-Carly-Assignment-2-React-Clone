@@ -1,7 +1,9 @@
 import "./styles.css";
 
+import { LoginInstructions } from '../../login-instructions/index';
+
 export const LoginPage = () => {
     return (
-        <div>New Login Page</div>
+        <LoginInstructions></LoginInstructions>
     )
 }

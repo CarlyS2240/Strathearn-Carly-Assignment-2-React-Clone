@@ -1,0 +1,54 @@
+
+.loginInstructionsContainer{
+    background: #0058a3;
+    width: 40%;
+    height: 100%;
+}
+
+.loginInstructions{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    justify-content: left;
+    text-align: left;
+    margin-left: 50%;
+    margin-top: 0%;
+    width: 34%;
+    color:white;
+}
+
+.logoWhite{
+    width:40%;
+    padding-bottom: 80%;
+
+}
+
+.loginYellow{
+    color: #fbd914;
+}
+
+.pAccess{
+    padding-bottom: 190px;
+    color: #ffffff;
+}
+
+.arrowIcon{
+    
+    color: white;
+    padding-top: 2%;
+    padding-left: 2%;
+    text-align: none;
+}
+
+.pInstructions{
+    margin-bottom: 9%;
+    line-height: 25px;
+}
+
+.pCopyright{
+    font-size: 12px;
+    padding-bottom: 40px;
+    width: 87%;
+}
+
+
