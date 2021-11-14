@@ -29,8 +29,8 @@ export const ProductCard = (props) => {
 }
 
 ProductCard.propTypes = {
-    newProduct: PropTypes.string.isRequired,
-    topSeller: PropTypes.string.isRequired,
+    newProduct: PropTypes.string,
+    topSeller: PropTypes.string,
     img: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,

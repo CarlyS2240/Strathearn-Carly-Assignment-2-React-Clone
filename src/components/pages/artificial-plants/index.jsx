@@ -78,7 +78,7 @@ export const ArtificialPlantPage = () => {
                     topSeller="none"
                     img="https://www.ikea.com/ca/en/images/products/fejka-artificial-potted-plant-with-pot-indoor-outdoor-succulent__0901062_pe687829_s5.jpg?f=xxs" 
                     title="FEJKA"
-                    description="Artificial potted plant with pot, 2 ¼″ 3 pack"
+                    description="Artificial potted plants, 2 ¼″ 3 pack"
                     price="$3.⁹⁹"
                     >  
                 </ProductCard>
