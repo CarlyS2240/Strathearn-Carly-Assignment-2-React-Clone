@@ -1,0 +1,12 @@
+.loginPageContainer {
+    display: flex;
+  }
+  
+  /* Clear floats after the columns */
+  .row1{
+    flex: 1 12%;
+  }
+
+  .row2{
+    flex: 2;
+  }

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;500&family=Roboto:wght@300;400;500&display=swap');
+
+
+.loginFormContainer{
+    display: inline-block;
+    align-items: left;
+    align-content: left;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 18%;
+}
+
+.emailInput, .passwordInput{
+    border: none;
+    width: 100%;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.passwordField{
+    display: flex;
+}
+
+.emailForm p{
+    padding-bottom: 25px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+   }
+
+.passwordForm p{
+    padding-bottom: 18px;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+   }
+
+.passwordForm p:hover{
+    text-decoration: underline;
+   }
+
+.alternativeLogin{
+    font-weight: 700;
+    text-decoration: underline;
+}

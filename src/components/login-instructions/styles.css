@@ -1,7 +1,7 @@
 
 .loginInstructionsContainer{
     background: #0058a3;
-    width: 40%;
+    width: 100%;
     height: 100%;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .arrowIcon{
-    
+    display: flex;
     color: white;
     padding-top: 2%;
     padding-left: 2%;
@@ -49,6 +49,10 @@
     font-size: 12px;
     padding-bottom: 40px;
     width: 87%;
+}
+
+.arrowIcon{
+    text-align: none !important;
 }
 
 
