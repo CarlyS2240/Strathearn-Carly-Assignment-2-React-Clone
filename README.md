@@ -24,43 +24,40 @@ Additionally, the Login page was selected because I identified the login form an
 
 #### Artificial Plant Page (/ArtificialPlantPage)
 
-  (1) Header Component  
+  **(1) Header Component** 
+        -Selected to broadcast important messages to customers, messages can easily be removed or added to this component.
+        -For example, a fourth message could be added to the header if need be.
         
-        Selected to broadcast important messages to customers, messages can easily be removed or added to this component.
-        For example, a fourth message could be added to the header if need be.
+  **(2) Navigation Bar Component**
+        -Selected because a navigation bar is an important element to all websites as it helps guide users along.
+        -Additionally, the navigation bar is a reusable component that is displayed in a majority of the IKEA web pages.
         
-  (2) Navigation Bar Component
+  **(3) Filter Component**
+        -Selected because the filter component is featured on all of IKEA’s product pages to allow users to sort the products into categories.
+        -This component can be easily reused on different pages if the IKEA React Clone was expanded on.
         
-        Selected because a navigation bar is an important element to all websites as it helps guide users along.
-        Additionally, the navigation bar is a reusable component that is displayed in a majority of the IKEA web pages.
+  **(4) Product Card Component**
+        -Selected because the product card component is featured on all of IKEA’s product pages to contain each product that IKEA sells.
+        -This component can be easily reused on different pages if the IKEA React Clone was expanded on for example it could be displayed on the sofa page to contain different           sofa products.
         
-  (3) Filter Component
-        
-        Selected because the filter component is featured on all of IKEA’s product pages to allow users to sort the products into categories.
-        This component can be easily reused on different pages if the IKEA React Clone was expanded on.
-        
-  (4) Product Card Component
-        
-        Selected because the product card component is featured on all of IKEA’s product pages to contain each product that IKEA sells.
-        This component can be easily reused on different pages if the IKEA React Clone was expanded on for example it could be displayed on the sofa page to contain different           sofa products.
-        
-  (5) Footer Component
-        
-        Selected because a footer is an important element to all websites as it contains quick links for users to access.
+  **(5) Footer Component**
+        -Selected because a footer is an important element to all websites as it contains quick links for users to access.
         
 #### Login Page (/LoginPage)
 
-  (6) Login Form
+  **(6) Login Form**
+        -Selected because the login component is necessary to authenticate IKEA members and allow them reap the benefits of having an IKEA account. 
         
-        Selected because the login component is necessary to authenticate IKEA members and allow them reap the benefits of having an IKEA account. 
-        
-  (7) Submission Button
-        
-        Selected because a submission button is a key component of the IKEA login form to allow for the submission of data.
+  **(7) Submission Button**
+        -Selected because a submission button is a key component of the IKEA login form to allow for the submission of data.
 
 ### npm install
 
-To install the necessary packages and their dependencies for this application please run the 'npm install' command in the terminal.
+To install the necessary packages and their dependencies for this application please run the 
+
+npm install
+
+command in the terminal.
 
 ### npm start
 
