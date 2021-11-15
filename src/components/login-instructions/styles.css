@@ -20,7 +20,6 @@
 .logoWhite{
     width:40%;
     padding-bottom: 30%;
-
 }
 
 .loginYellow{
@@ -55,6 +54,8 @@
     cursor: pointer;
 }
 
+/*----------Responsive Design For Desktop---------*/
+
 @media only screen and (min-width: 1629px) {
 
     .loginInstructions{
@@ -71,6 +72,8 @@
     }
   }
 
+  /*----------Responsive Design For iPhone---------*/
+  
   @media only screen and (max-width: 670px) { 
     
     .loginInstructions{

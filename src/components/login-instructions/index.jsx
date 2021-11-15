@@ -1,9 +1,12 @@
 import "./styles.css"
-import {ArrowBack} from '@material-ui/icons';
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+import {ArrowBack} from '@material-ui/icons'; /* Importing some icons from Google */
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> /* Used to add breakpoints to website for responsive design */
 
 export const LoginInstructions = () => {
+
+     /* Making the LoginInstructions component from text and the IKEA logo */
 
     return (
         <div className="loginInstructionsContainer">

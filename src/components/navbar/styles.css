@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 .navbar-list{
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,9 +21,7 @@
     text-shadow: 0px 0px 0px transparent;
     padding-right: 39px;
     padding-left: 15px;
-    
     position: sticky;
-
   }
 
   .hamMenu-button:hover {
@@ -34,12 +31,10 @@
   .logo {
     padding-left: 0%;
     position: relative;
-    
   }
 
   .linksContainer{
     display: flex;
-  
   }
 
   .Products {
@@ -47,7 +42,6 @@
     font-weight: 500;
     font-size: 15px;
     color:  #111111;
-    
     background: transparent;
     box-shadow: 0px 0px 0px transparent;
     border: 0px solid transparent;
@@ -58,7 +52,7 @@
   .Products:hover {
     cursor: pointer;
     text-decoration: underline;
-}
+  }
 
   .Rooms {
     font-family: 'Roboto', sans-serif;
@@ -76,7 +70,7 @@
   .Rooms:hover {
     cursor: pointer;
     text-decoration: underline;
-}
+  }
 
   .Offers {
     font-family: 'Roboto', sans-serif;
@@ -89,13 +83,12 @@
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
     margin: 0px 12px;
-    
   }
 
   .Offers:hover {
     cursor: pointer;
     text-decoration: underline;
-}
+  }
 
   .searchBar {
     background: transparent;
@@ -109,7 +102,6 @@
     display: flex;
     flex-wrap: nowrap;
   }
-
 
   .location {
     background: transparent;
@@ -126,7 +118,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
+  }
 
   .shipping {
     background: transparent;
@@ -143,8 +135,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
-
+  }
 
   .account {
     background: transparent;
@@ -161,7 +152,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
+  }
 
   .favourite {
     background: transparent;
@@ -178,8 +169,7 @@
     border-radius: 50%;
     width: 40px;
     height: 40px;
-}
-
+  }
 
   .cart {
     background: transparent;
@@ -198,16 +188,12 @@
     height: 40px;
 }
 
-
   .divider {
     border-top: 1px solid rgb(235, 235, 235);
     width:85%;
     margin-left: 130px;
     margin-top: 20px;
-    
     display:flex; 
-    
-   
   }
 
   .searchContainer{
@@ -216,22 +202,13 @@
       padding-bottom: 10px;
       padding-right: 20px;
       width: 35%;
-      
-      
-     
-
-      
       border-radius: 25px;
-
       margin-left: 1.5%;
-
-
   }
 
   .searchBar{
     display:flex; 
     align-items: center;
-    
   }
 
   .searchInput{
@@ -240,9 +217,7 @@
     border: 0px solid transparent;
     text-shadow: 0px 0px 0px transparent;
     margin-left: 1%;
-
     width: 300px;
-    
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -250,7 +225,6 @@
 
   .searchInput:focus{
     outline: none;
-
   }
 
   .searchIcon{
@@ -261,29 +235,25 @@
     margin-left: auto;
   }
 
+  /*----------Responsive Design For Desktop---------*/
 
   @media only screen and (min-width: 1629px) {
     
 
     .hamMenu-button {
-   
       padding-left: 56px;
       padding-right: 60px;
-
-  
     }
 
     .searchContainer{
       width: 46%
-  }
+    }
 
   
   .divider {
-  
     width:83%;
     margin-left: 190px;
-
-  }
+    }
 
   }
 
@@ -309,7 +279,6 @@
 
   .searchBar{
     width: 0px;
-    
   }
 
   .cameraIcon{

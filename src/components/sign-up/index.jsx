@@ -1,6 +1,8 @@
 import "./styles.css"
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> /* Used to add breakpoints to website for responsive design */
+
+/* Making the SignUp component from text and buttons*/
 
 export const SignUp = () => {
 

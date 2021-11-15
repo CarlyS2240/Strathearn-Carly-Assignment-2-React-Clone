@@ -1,9 +1,12 @@
-import { FaFacebookF, FaInstagram, FaPinterest, FaTwitter,  FaYoutube} from "react-icons/fa";
-import {Language, KeyboardArrowDown} from '@material-ui/icons';
+import { FaFacebookF, FaInstagram, FaPinterest, FaTwitter,  FaYoutube} from "react-icons/fa"; /* Importing some icons from React */
+import {Language, KeyboardArrowDown} from '@material-ui/icons'; /* Importing some icons from Google */
 
 import "./styles.css"
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> /* Used to add breakpoints to website for responsive design */
+
+
+ /* Making the Footer component from list, button, and heading elements */
 
 export const Footer = () => {
     return (

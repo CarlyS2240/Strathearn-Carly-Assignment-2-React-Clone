@@ -8,8 +8,6 @@
     background-color: #111111;
     height: 40px;
     margin-top: 0px;
-
-    
     font-size: 14px;
     color: white;
 }
@@ -17,7 +15,6 @@
 .headerList{
     list-style-type: none;
     justify-content: center;
-  
 }
 
 .headerItems{
@@ -44,8 +41,6 @@
         text-align: left;
         margin: 0px;
         height: 100%;
-        
-
     }
 
     .headerItems{
@@ -53,13 +48,11 @@
         align-items: center;
         width: 85%;
         margin: 0px;
-        
     }
 
     .headerList{
         padding: 10px 10px;
         margin: 0px !important;
-      
     }
     
-  }
+}

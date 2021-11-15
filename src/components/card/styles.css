@@ -8,14 +8,9 @@
     text-align: center;
     font-family: Roboto;
     object-fit: cover;
-
     font-family: 'Roboto', sans-serif;
-    
     text-align: left;
-
-  
     line-height: 20%;
-
     display: grid;
     grid-template-columns: 220px 220px 220px 220px;
     grid-gap: 50px;
@@ -24,16 +19,16 @@
   }
 
   .topSellerTag{
-      background: #D90B56;
-      position: absolute;
-      width: 70px;
-      height: 15px;
-      font-family: 'Noto Sans', sans-serif;
-      font-weight: 700;
-      font-size: 13px;
-      color: white;
-      padding-top: 10px;
-      padding-left: 5px;
+    background: #D90B56;
+    position: absolute;
+    width: 70px;
+    height: 15px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
   }
 
   .plantImage {
@@ -65,7 +60,6 @@
     font-weight: 300;
     line-height: 20px;
     width: 80%;
-   
 }
 
 .cardPrice{
@@ -107,8 +101,7 @@
     float: right;
     display: none;
     padding-left: 12px;
-    padding-top: 5px;
-    
+    padding-top: 5px; 
 }
 
 .cardBody:hover .addCart{
@@ -116,6 +109,7 @@
     display:block;
 }
 
+/*----------Responsive Design For iPhone---------*/
 
 @media only screen and (max-width: 667px) {
 
@@ -123,7 +117,6 @@
         grid-template-columns: 168px 168px;
         grid-gap: 10px;
         margin-left: 4%;
-      
       }
 
       .checkBox{
@@ -136,11 +129,12 @@
 
 }
 
+/*----------Responsive Design For Desktop---------*/
+
 @media only screen and (min-width: 1629px) {
     .wrapper {
         grid-template-columns: 365px 365px 365px 365px;
         grid-gap: 50px;
-      
       }
 
       .productCardDivider{

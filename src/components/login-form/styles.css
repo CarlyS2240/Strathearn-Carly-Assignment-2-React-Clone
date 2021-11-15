@@ -19,6 +19,10 @@
     color: black;
 }
 
+.emailInput:focus, .passwordInput:focus{
+    outline: none;
+  }
+
 .passwordField{
     display: flex;
 }
@@ -51,12 +55,17 @@
     text-decoration: underline;
 }
 
+
+/*----------Responsive Design For Desktop---------*/
+
 @media only screen and (min-width: 1629px) {
     
     .loginFormContainer{
         margin-top: 18%;
     }
 }
+
+/*----------Responsive Design For iPhone---------*/
 
 @media only screen and (max-width: 670px) { 
     
@@ -72,5 +81,5 @@
         font-size: 14px;
         color: black;
     }
-    
+
 }

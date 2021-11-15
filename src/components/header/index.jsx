@@ -1,14 +1,18 @@
-import PropTypes from 'prop-types';
+/* OUTDATED COMPONENT */
+
+import PropTypes from 'prop-types';  /* Using props to be able to reuse this header component in other components of the website */
 
 import "./styles.css"
 
-import {Language, Crop54, Edit} from '@material-ui/icons';
+import {Language, Crop54, Edit} from '@material-ui/icons'; /* Importing some icons from Google */
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>  /* Used to add breakpoints to website for responsive design */
 
 export const Header = (props) => {
 
-    const {firstMessage, secondMessage, thirdMessage} = props; 
+    const {firstMessage, secondMessage, thirdMessage} = props; /* Declaring props */
+
+    /* Making the Header component from text and icons */
 
     return (
             <ul className="header-list">
@@ -27,6 +31,8 @@ export const Header = (props) => {
             </ul>
     );
 }
+
+/* Header component takes a parameter for the following: the first message, second message, and third message displayed in the component*/
 
 Header.propTypes = {
     firstMessage: PropTypes.string.isRequired,

@@ -10,8 +10,7 @@
     height: 100%;
     font-size: 15px;
     margin-top: 5%;
-    padding-top: 60px;
-    
+    padding-top: 60px; 
 }
 
 .firstList{
@@ -40,8 +39,7 @@
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    padding-bottom: 15px;
-  
+    padding-bottom: 15px; 
 }
 
 .firstList p{
@@ -57,7 +55,6 @@
     font-weight: 700;
     font-size: 13px;
     color: rgb(218, 123, 0);
-
     background-color: #000000;
     border: none;
     color: white;
@@ -65,9 +62,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    
     border-radius: 30px;
-
     width: 100px;
 }
 
@@ -140,7 +135,7 @@
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     color: rgb(68, 68, 68);
-   }
+}
    
    
 .fourthList li{
@@ -149,12 +144,12 @@
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     color: rgb(68, 68, 68);
-   }
+}
 
 .secondList li:hover{
     cursor: pointer;
     text-decoration: underline;
-   } 
+} 
 
 .thirdList li:hover{
     cursor: pointer;
@@ -165,6 +160,8 @@
     cursor: pointer;
     text-decoration: underline;
 } 
+
+/*----------Responsive Design For iPhone---------*/
 
 @media only screen and (max-width: 667px) {
 
@@ -205,11 +202,10 @@
           
     .fourthList li{
         display: none;
-        }
+    }
 
     .socialMediaList{
         padding:0px;
-        
     }
 
     .facebook, .instagram, .pinterest, .twitter, .youtube{
@@ -224,10 +220,6 @@
         display: none;
     }
 
-    
-        
-
-  
 }
 
 

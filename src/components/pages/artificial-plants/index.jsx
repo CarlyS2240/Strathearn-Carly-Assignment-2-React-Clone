@@ -1,15 +1,18 @@
 import "./styles.css";
 
+/* importing components to display on the artificial plant page */
+
 import { Navbar } from '../../navbar/index';
 import { ProductCard } from '../../card/index';
 import { PageInfo } from '../../page-Info/index';
 import { Footer } from '../../footer/index';
 import { Filter } from '../../filter/index';
-import { Header } from "../../header";
 import { HeaderOne } from "../../headerOne";
 
-import {Language, Crop54, Edit} from '@material-ui/icons';
+import {Language, Crop54, Edit} from '@material-ui/icons'; /* Declaring props */
 
+/* Making the ArtificialPlantPage component to contain all of our artificial plant page components. This component acts like a website page by displaying some of the
+   other components made. We also pass props to our other components here. */
 
 export const ArtificialPlantPage = () => {
     return (

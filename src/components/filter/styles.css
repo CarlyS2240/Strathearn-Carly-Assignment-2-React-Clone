@@ -6,10 +6,7 @@
     flex-wrap: wrap;
     width: 80%;
     align-items: center;
-    margin-left: 6%;
-
-    
-    
+    margin-left: 6%;   
 }
 
 
@@ -20,8 +17,6 @@
     font-weight: 700;
     text-align: center;
     text-decoration: none;
-
- 
     font-size: 0.80rem;
     margin: 4px 6px 14px;
     border-radius: 20px;
@@ -40,7 +35,6 @@
     width: 105px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
 }
 
 .availableOnline, .customerRatings{
@@ -75,8 +69,6 @@
     align-items: center;
     align-content: center;
     margin-left: 79%;
-    
-    
 }
 
 .itemNumber{
@@ -97,7 +89,6 @@
     border-left: 1px solid rgb(136, 136, 136);
     border-top: 1px solid rgb(136, 136, 136);
     border-bottom: 1px solid rgb(136, 136, 136);
-
 }
 
 .productB:hover{
@@ -112,7 +103,6 @@
     border-left: 1px solid rgb(0, 0, 0);
     border-top: 1px solid rgb(0, 0, 0);
     border-bottom: 1px solid rgb(0, 0, 0);
-
 }
 
 .buttonDivider {
@@ -123,22 +113,21 @@
     display:flex; 
   }
 
+  /*----------Responsive Design For iPhone---------*/
+
 @media only screen and (max-width: 667px) {
     .filter-buttons{
         margin-left: 0%;
         padding: 2px;
-        display: block;
-        
+        display: block;   
     }
 
     .Sort, .Size, .Color, .Price, .availableOnline, .newProducts, .customerRatings, .allFilters{
         margin: 4px 5px 10px;
-   
     }
 
     .Price, .availableOnline, .newProducts, .customerRatings, .allFilters{
         margin: 4px 5px 10px;
-   
     }
 
     .roomButtons{
@@ -157,28 +146,24 @@
  
 }
 
+/*----------Responsive Design For Desktop---------*/
+
 @media only screen and (min-width: 1629px) {
 
     .filter-buttons{
         width: 94%;
-        margin-left: 7.2%;
-        
-        
+        margin-left: 7.2%;   
     }
 
     .roomFilterButtons{
         margin-right: 10%;
         margin-left: auto;
-        
     }
 
     .buttonDivider {
         width:85%;
         margin-left: 180px;
       }
-
-   
-    
 
   }
 

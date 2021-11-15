@@ -1,12 +1,17 @@
 import "./styles.css"
 
-import {Visibility} from '@material-ui/icons';
+import {Visibility} from '@material-ui/icons'; /* Importing some icons from Google */
+
+/* importing other components to be displayed within the login form component */
+
 import { Button } from '../button/index';
 import { SignUp } from '../sign-up/index';
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> /* Used to add breakpoints to website for responsive design */
 
 export const LoginForm = () => {
+
+    /* Making the LoginForm component from HTML input fields and other components that we imported */
 
     return (
             <form className="loginFormContainer">

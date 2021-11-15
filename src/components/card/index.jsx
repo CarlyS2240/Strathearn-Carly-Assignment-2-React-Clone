@@ -1,16 +1,18 @@
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';  /* Using props to be able to reuse this poduct card component in other components of the website */
 import "./styles.css"
 
-import {AddShoppingCartOutlined} from '@material-ui/icons';
+import {AddShoppingCartOutlined} from '@material-ui/icons'; /* Importing some icons from Google */
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"></meta> /* Used to add breakpoints to website for responsive design */
 
 export const ProductCard = (props) => {
 
-    const{newProduct, topSeller, img, title, description, price} = props;
+    const{newProduct, topSeller, img, title, description, price} = props; /* Declaring props */
+
+    /* Making the product card component */
 
     return (
-            <div className="productCard">
+            <div className="productCard"> 
                 <div className="cardBody">
                     <input type="checkbox" id="compare" name="compare" value="compare" className="checkBox"></input>
                     <label for="checkbox" className="checkboxLabel">Compare</label>
@@ -27,6 +29,9 @@ export const ProductCard = (props) => {
 
     );
 }
+
+/* ProductCard component takes a parameter for the following: text if the product is new, text for if the product is a top seller, product image
+   product title, product description, product price*/
 
 ProductCard.propTypes = {
     newProduct: PropTypes.string,
