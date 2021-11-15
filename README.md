@@ -1,7 +1,6 @@
 # Assignment 2: React Clone
-## IKEA
-
-### Author: Carly Strathearn 
+## Website: IKEA
+## Author: Carly Strathearn 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
