@@ -29,8 +29,8 @@ Additionally, the Login page was selected because I identified the login form an
         -For example, a fourth message could be added to the header if need be.
         
   **(2) Navigation Bar Component**
-        -Selected because a navigation bar is an important element to all websites as it helps guide users along.
-        -Additionally, the navigation bar is a reusable component that is displayed in a majority of the IKEA web pages.
+        * Selected because a navigation bar is an important element to all websites as it helps guide users along.
+        * Additionally, the navigation bar is a reusable component that is displayed in a majority of the IKEA web pages.
         
   **(3) Filter Component**
         -Selected because the filter component is featured on all of IKEA’s product pages to allow users to sort the products into categories.
@@ -53,13 +53,7 @@ Additionally, the Login page was selected because I identified the login form an
 
 ### npm install
 
-To install the necessary packages and their dependencies for this application please run the 
-
-
-npm install
-
-
-command in the terminal.
+To install the necessary packages and their dependencies for this application please run the 'npm install' command in the terminal.
 
 ### npm start
 
