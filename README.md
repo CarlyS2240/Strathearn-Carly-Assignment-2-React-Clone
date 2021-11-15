@@ -25,8 +25,8 @@ Additionally, the Login page was selected because I identified the login form an
 #### Artificial Plant Page (/ArtificialPlantPage)
 
   **(1) Header Component** 
-        -Selected to broadcast important messages to customers, messages can easily be removed or added to this component.
-        -For example, a fourth message could be added to the header if need be.
+        Selected to broadcast important messages to customers, messages can easily be removed or added to this component.
+        For example, a fourth message could be added to the header if need be.
         
   **(2) Navigation Bar Component**
         * Selected because a navigation bar is an important element to all websites as it helps guide users along.
@@ -53,7 +53,11 @@ Additionally, the Login page was selected because I identified the login form an
 
 ### npm install
 
-To install the necessary packages and their dependencies for this application please run the 'npm install' command in the terminal.
+To install the necessary packages and their dependencies for this application please run the 
+
+  npm install
+
+command in the terminal.
 
 ### npm start
 
