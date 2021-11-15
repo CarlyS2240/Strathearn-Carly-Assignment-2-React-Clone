@@ -1,6 +1,8 @@
 import "./styles.css"
 
 import {Visibility} from '@material-ui/icons';
+import { Button } from '../button/index';
+import { SignUp } from '../sign-up/index';
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
 
@@ -21,6 +23,11 @@ export const LoginForm = () => {
                     <hr className="inputDivider"></hr>
                     <p>Forgot your password?</p>
                 </label>
+                <Button
+                text="Continue"
+                name="buttonComponent"
+                disabled="false"></Button>
+                <SignUp></SignUp>
         </form>
    
     );

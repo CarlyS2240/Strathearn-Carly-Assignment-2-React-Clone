@@ -7,7 +7,7 @@
     align-content: left;
     text-align: left;
     margin-left: 80px;
-    margin-top: 18%;
+    margin-top: 13%;
 }
 
 .emailInput, .passwordInput{
@@ -29,10 +29,11 @@
     font-family: 'Noto Sans', sans-serif;
     font-weight: 400;
     color: rgb(0, 0, 0);
+    padding-right: 60px;
    }
 
 .passwordForm p{
-    padding-bottom: 18px;
+    padding-bottom: 35px;
     font-size: 14px;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
@@ -42,9 +43,34 @@
 
 .passwordForm p:hover{
     text-decoration: underline;
+    cursor: pointer;
    }
 
 .alternativeLogin{
     font-weight: 700;
     text-decoration: underline;
+}
+
+@media only screen and (min-width: 1629px) {
+    
+    .loginFormContainer{
+        margin-top: 18%;
+    }
+}
+
+@media only screen and (max-width: 670px) { 
+    
+    .loginFormContainer{
+        margin-left: 10px;
+    }
+
+    .emailInput, .passwordInput{
+        border: none;
+        width: 90%;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: black;
+    }
+    
 }

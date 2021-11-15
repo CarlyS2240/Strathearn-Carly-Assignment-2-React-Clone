@@ -13,13 +13,13 @@
     text-align: left;
     margin-left: 50%;
     margin-top: 0%;
-    width: 34%;
+    width: 39%;
     color:white;
 }
 
 .logoWhite{
     width:40%;
-    padding-bottom: 80%;
+    padding-bottom: 30%;
 
 }
 
@@ -28,7 +28,7 @@
 }
 
 .pAccess{
-    padding-bottom: 190px;
+    padding-bottom: 45px;
     color: #ffffff;
 }
 
@@ -52,7 +52,37 @@
 }
 
 .arrowIcon{
-    text-align: none !important;
+    cursor: pointer;
 }
 
+@media only screen and (min-width: 1629px) {
+
+    .loginInstructions{
+        width: 34%;
+    }
+
+    .logoWhite{
+        padding-bottom: 60%;
+    
+    }
+
+    .pAccess{
+        padding-bottom: 260px;
+    }
+  }
+
+  @media only screen and (max-width: 670px) { 
+    
+    .loginInstructions{
+        margin-left: 20%;
+        width:68%;
+    
+    }
+
+    .logoWhite{
+        padding-bottom: 15%;
+    
+    }
+
+}
 

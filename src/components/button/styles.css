@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;500&family=Roboto:wght@300;400;500&display=swap');
+
+.buttonComponent{
+    width: 100%;
+    border-radius: 30px;
+    background: #0058a3;
+    padding: 18px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: none;
+    border:none;
+}
+
+.buttonComponent:hover{
+    cursor: pointer;
+    background: #014785;
+}
