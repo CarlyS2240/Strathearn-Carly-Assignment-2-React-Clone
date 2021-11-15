@@ -37,8 +37,8 @@ Additionally, the Login page was selected because I identified the login form an
         -This component can be easily reused on different pages if the IKEA React Clone was expanded on.
         
   **(4) Product Card Component**
-        -Selected because the product card component is featured on all of IKEA’s product pages to contain each product that IKEA sells.
-        -This component can be easily reused on different pages if the IKEA React Clone was expanded on for example it could be displayed on the sofa page to contain different           sofa products.
+        * Selected because the product card component is featured on all of IKEA’s product pages to contain each product that IKEA sells.
+        * This component can be easily reused on different pages if the IKEA React Clone was expanded on for example it could be displayed on the sofa page to contain different           sofa products.
         
   **(5) Footer Component**
         -Selected because a footer is an important element to all websites as it contains quick links for users to access.
@@ -55,7 +55,9 @@ Additionally, the Login page was selected because I identified the login form an
 
 To install the necessary packages and their dependencies for this application please run the 
 
+
 npm install
+
 
 command in the terminal.
 
